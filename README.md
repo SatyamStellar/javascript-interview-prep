@@ -46,6 +46,8 @@ Each directory contains `.html` & `.js` files representing various JavaScript co
 - Error Handling 'soon'
 
 
+## License
+
 MIT License
 
 Copyright © 2024 Satyam
