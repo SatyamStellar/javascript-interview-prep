@@ -52,6 +52,6 @@ MIT License
 
 Copyright © 2024 Satyam
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this repo to deal in the repo without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this repo to deal in the repo without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the repo.
 
 
