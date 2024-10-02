@@ -218,3 +218,118 @@
 
 // const obj = { a: "one", b: "two", a: "again" }
 // console.log(obj);
+
+
+
+
+
+// Question 21. ------------------------------------------------
+
+// for (let i = 1; i < 5; i++) {
+//   if (i === 3) continue;
+//   console.log(i);
+// }
+
+
+
+
+// Question 22. ------------------------------------------------
+
+// const yes1 = () => console.log("first");
+// const yes2 = () => setTimeout(() => console.log("second"));
+// const yes3 = () => console.log("third");
+
+// yes2();
+// yes1();
+// yes3();
+
+
+
+
+// ** For Question 23 Check Html file
+
+
+
+// Question 24. ------------------------------------------------
+
+// const person = {
+//   name: 'Satyam'
+// };
+
+// function hey(age) {
+//   return `${this.name} is ${age}`
+// }
+
+
+// console.log(hey.call(person, 21));
+// console.log(hey.bind(person, 21));
+
+
+
+
+// Question 25. ------------------------------------------------
+
+// function hey() {
+//   return (() => 0)();
+// }
+
+// console.log(typeof hey());
+
+
+//  ------------------------------------------------
+
+// function hey() {
+//   return () => 0;
+// }
+
+// console.log(typeof hey());
+
+
+
+
+
+// Question 26. ------------------------------------------------
+
+// console.log(typeof typeof 1);
+
+
+
+
+// Question 27. ------------------------------------------------
+
+// const numbers = [1, 2, 3]
+// numbers[9] = 11;
+// console.log(numbers);
+
+
+
+
+
+// Question 28. ------------------------------------------------
+
+// const numbers = [1, 2, 3]
+// numbers[3] = numbers;
+// console.log(numbers);
+
+
+// Question 29. ----------------------------------------------------
+
+// ** Everything in JS is either a....
+
+// *** a: primitve or object
+// *** b: function of object
+// *** c: olny object
+// *** d: number of object
+
+// ** Which one of this is True
+
+
+
+
+
+
+// Question 30. ------------------------------------------------
+
+// console.log(!!null);
+// console.log(!!"");
+// console.log(!!1);
