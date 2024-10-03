@@ -333,3 +333,151 @@
 // console.log(!!null);
 // console.log(!!"");
 // console.log(!!1);
+
+
+
+
+
+// Question 31. ------------------------------------------------
+
+// console.warn(setInterval(() => console.log("hi"), 1000
+// ));
+// console.warn(setInterval(() => console.log("hi2"), 1000
+// ));
+// console.warn(setInterval(() => console.log("hi3"), 1000
+// ));
+
+
+
+
+
+
+
+// Question 32. ------------------------------------------------
+
+// console.log([..."anil"]);
+
+
+
+
+
+// Question 33. ------------------------------------------------
+
+// let num = 1 + 5 + "2";
+// console.log(typeof num);
+
+//  ------------------------------------------------
+
+// console.log(typeof 1 + 2 + "2");
+
+//  ------------------------------------------------
+
+// console.log(typeof (1 + 2 + "2"));
+
+
+
+
+
+
+
+// Question 34. ------------------------------------------------
+
+// console.log([] == []);
+
+
+
+
+
+// Question 35. ------------------------------------------------
+
+// let data = [1, 2, 3].map(num => {
+//   if (typeof num === "number") return num;
+//   return num * 2;
+// })
+
+// console.log(data);
+
+
+//  ------------------------------------------------
+
+
+// let data = [1, 2, 3].map(num => {
+//   if (typeof num === Number) return num;
+//   return num * 2;
+// })
+
+// console.log(data);
+
+
+
+
+
+
+// Question 36. ------------------------------------------------
+
+// function getInfo(member) {
+//   member.name = "Satyam"
+// }
+
+// const person = {
+//   name: "Kapil"
+// }
+
+// getInfo(person)
+
+// console.log(person);
+
+
+
+
+
+
+
+// Question 37. ------------------------------------------------
+
+// function Car() {
+//   this.make = 'tata';
+//   return { make: 'kia' }
+// }
+// const mycar = new Car();
+// console.log(mycar.make);
+
+
+
+
+
+
+// Question 38. ------------------------------------------------
+// (() => {
+//   let x = (y = 10)
+// })(
+// );
+// console.log(typeof x, x);
+
+
+//  ------------------------------------------------
+
+
+// (() => {
+//   let x = (y = 10)
+// })(
+// );
+// console.log(typeof x, x);
+
+
+
+
+// Question 39. ------------------------------------------------
+// (() => {
+//   let x = y = 10
+// })();
+
+// console.log(typeof y, y);
+
+
+
+
+// Question 40. ------------------------------------------------
+// console.log(!true - true);
+
+// console.log(!true + true);
